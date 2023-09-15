@@ -62,11 +62,11 @@ main {
     .grid-tiles {
         margin-top: 2em;
         display: grid;
-        align-items: center;
         grid-template-columns: 1fr 1fr;
         background-color: #32ee2b;
         padding: 0 2em;
         row-gap: 2em;
+        column-gap: 1em;
 
         .wrapper-one {
             background-color: #6d45db;
@@ -83,20 +83,56 @@ main {
             }
 
             p {
+                color: #fff;
                 align-self: flex-end;
                 margin-bottom: 1em;
-                color: #fff;
                 font-weight: bold;
                 padding: 0 1em;
             }
         }
 
         .wrapper-two {
-            // 
+            background-color: #e4b051;
+            height: 10em;
+            position: relative;
+            display: flex;
+            border-radius: 10px;
+
+            .tile-two {
+                position: absolute;
+                left: 4.5em;
+                top: 1em;
+            }
+
+            p {
+                color: #fff;
+                align-self: flex-end;
+                margin-bottom: 1em;
+                font-weight: bold;
+                padding: 0 1em;
+            }
         }
 
         .wrapper-three {
-            // 
+            background-color: #e08ec1;
+            height: 10em;
+            position: relative;
+            display: flex;
+            border-radius: 10px;
+
+            .tile-three {
+                position: absolute;
+                left: 4.5em;
+                top: 1em;
+            }
+
+            p {
+                color: #fff;
+                align-self: flex-end;
+                margin-bottom: 1em;
+                font-weight: bold;
+                padding: 0 1em;
+            }
         }
 
         .wrapper-four {
