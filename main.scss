@@ -14,7 +14,7 @@ body {
 
 //HEADER
 header {
-    padding: 1em;
+    padding: 1em 2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,9 +32,11 @@ header {
         font-size: .9em;
     }
 }
+
 // MAIN
 main {
     margin-top: 1em;
+
     // PROMO //
     .promo {
         display: flex;
@@ -55,14 +57,14 @@ main {
         }
 
     }
+
     // GRID TILES //
     .grid-tiles {
         margin-top: 2em;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        background-color: #32ee2b;
         padding: 0 2em;
-        row-gap: 2em;
+        row-gap: 1.5em;
         column-gap: 1em;
 
         .wrapper-one {
@@ -77,6 +79,12 @@ main {
                 position: absolute;
                 top: 1em;
                 left: 11em;
+            }
+
+            @media screen and (min-width:401px) and (max-width:768px) {
+                .tile-one {
+                    left: 12.5em;
+                }
             }
 
             p {
@@ -101,6 +109,12 @@ main {
                 top: 1em;
             }
 
+            @media screen and (min-width:401px) and (max-width:768px) {
+                .tile-two {
+                    left: 5.5em;
+                }
+            }
+
             p {
                 color: #fff;
                 align-self: flex-end;
@@ -121,6 +135,12 @@ main {
                 position: absolute;
                 left: 4.5em;
                 top: 1em;
+            }
+
+            @media screen and (min-width:401px) and (max-width:768px) {
+                .tile-three {
+                    left: 5.5em;
+                }
             }
 
             p {
@@ -200,7 +220,6 @@ main {
                 padding: 0 1em;
             }
         }
-
-
     }
+
 }
