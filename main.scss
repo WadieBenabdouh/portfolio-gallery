@@ -393,3 +393,53 @@ footer {
         }
     }
 }
+
+
+
+// ----- D E S K T O P ----- //
+// ----- D E S I G N  ----- //
+@media screen and (min-width:1080px) and (max-width: 1440px) {
+
+    // GRID TILES
+    .grid-tiles {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr !important;
+        grid-template-rows: 12.5rem 12.5rem !important;
+
+        .wrapper-one {
+            //graphicDesign
+            grid-row: 1/2 !important;
+            height: 26.5rem !important;
+        }
+
+        .wrapper-two {
+            //ui-u
+            grid-row: 1/2 !important;
+            height: 12.5rem !important;
+        }
+
+        .wrapper-three {
+            //apps
+            height: 12.5rem !important;
+        }
+
+        .wrapper-four {
+            //illustrations
+            grid-column: 3/5 !important;
+            grid-row: 2/4 !important;
+            height: 12.5rem !important;
+
+        }
+
+        .wrapper-five {
+            //photography
+            grid-column: 5/7 !important;
+            height: 12.5rem !important;
+        }
+
+        .wrapper-six {
+            //motionGraphics
+            grid-column: 5/7 !important;
+            height: 12.5rem !important;
+        }
+    }
+}
