@@ -299,7 +299,7 @@ main {
         display: grid;
         grid-template-columns: repeat(5, 16.875rem);
         gap: 1em;
-        transform: translateX(0%); // << animation engine line 301
+        transition: all 0.2s;
 
         img {
             max-width: 100%;
