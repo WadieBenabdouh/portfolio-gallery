@@ -398,7 +398,51 @@ footer {
 
 // ----- D E S K T O P ----- //
 // ----- D E S I G N  ----- //
-@media screen and (min-width:1080px) and (max-width: 1440px) {
+@media screen and (min-width:1111px) and (max-width: 1540px) {
+
+    body {
+        padding: 0 4em;
+    }
+
+    // MAIN
+    main {
+
+        .promo {
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                width: 50%;
+            }
+        }
+    }
+
+    // SECTION ABOUT
+    .about {
+        flex-direction: row;
+        align-items: center;
+        gap: 5em;
+
+        .info {
+
+            h2 {
+                text-align: start;
+                width: 78%;
+                align-self: flex-start;
+                font-size: 2rem;
+            }
+
+            p {
+                text-align: start;
+            }
+
+            a {
+                align-self: flex-start;
+            }
+        }
+    }
 
     // GRID TILES
     .grid-tiles {
@@ -409,17 +453,29 @@ footer {
             //graphicDesign
             grid-row: 1/2 !important;
             height: 26.5rem !important;
+
+            .tile-one {
+                left: 14em !important;
+            }
         }
 
         .wrapper-two {
             //ui-u
             grid-row: 1/2 !important;
             height: 12.5rem !important;
+
+            .tile-two {
+                left: 6.5em !important;
+            }
         }
 
         .wrapper-three {
             //apps
             height: 12.5rem !important;
+
+            .tile-three {
+                left: 6.5em !important;
+            }
         }
 
         .wrapper-four {
@@ -428,18 +484,29 @@ footer {
             grid-row: 2/4 !important;
             height: 12.5rem !important;
 
+            .tile-four {
+                left: 14.5em !important;
+            }
         }
 
         .wrapper-five {
             //photography
             grid-column: 5/7 !important;
             height: 12.5rem !important;
+
+            .tile-five {
+                left: 12.5em !important;
+            }
         }
 
         .wrapper-six {
             //motionGraphics
             grid-column: 5/7 !important;
             height: 12.5rem !important;
+
+            .tile-six {
+                left: 14.5em !important;
+            }
         }
     }
 }
