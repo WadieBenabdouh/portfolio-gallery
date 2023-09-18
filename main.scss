@@ -525,4 +525,25 @@ footer {
             gap: 0;
         }
     }
+
+    // FOOTER
+    footer {
+        padding: 0 7em;
+        padding-bottom: 1em;
+
+        .booking {
+            align-items: flex-start;
+            padding-left: 4em;
+            justify-content: center;
+
+            h4 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                width: 40%;
+                text-align: start;
+            }
+        }
+    }
 }
